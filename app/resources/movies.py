@@ -11,3 +11,4 @@ def get_every_movie():
 
 @app.route('/movies', methods=["POST"])
 def create_movie():
+    return jsonify("blah")
