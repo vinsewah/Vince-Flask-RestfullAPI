@@ -1,4 +1,4 @@
-from app.db import get_db
+from app import get_db
 from sqlite3 import Error
 
 db = get_db()
